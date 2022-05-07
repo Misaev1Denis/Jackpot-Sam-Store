@@ -1,0 +1,37 @@
+.skirt {
+    height: 500px;
+    float: left;
+    position: relative;
+    left: 80px;
+    top: 40px;
+}    
+.hood {
+    height: 500px;
+    float: right;
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+.skirt {
+    transition: all 1s ease-out;
+}
+   
+.skirt:hover {
+    transform: scale(1.1);
+}
+.hood {
+    transition: all 1s ease-out;
+}
+   
+.hood:hover {
+    transform: scale(1.1);
+}
+.first {
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+.second {
+    position: relative;
+    left: 320px;
+    top: 60px;
